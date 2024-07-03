@@ -1,0 +1,32 @@
+{
+  "name": "hono-midtrans-api",
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@hono/node-server": "^1.11.4",
+    "@prisma/client": "5.16.1",
+    "@supabase/supabase-js": "^2.44.2",
+    "@types/crypto-js": "^4.2.2",
+    "bcryptjs": "^2.4.3",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "hono": "^4.4.10",
+    "jsonwebtoken": "^9.0.2",
+    "midtrans-client-typescript": "github:FerryAr/midtrans-client-typescript",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/node": "^20.11.17",
+    "midtrans-client": "^1.3.1",
+    "prisma": "^5.16.1",
+    "tsx": "^4.7.1",
+    "typescript": "^5.5.2"
+  }
+}
